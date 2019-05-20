@@ -27,6 +27,10 @@ Providing a solution to https://github.com/waxim/beegame/blob/master/BeeGame.md
 * Run `composer install`
 * Run the game with `./beeinthetrap`
 
+# RUNNING THE TESTS
+
+* Run `vendor/bin/phpunit tests` in the root of the project
+
 # TROUBLESHOOTING
 
 * Be sure that `beeinthetrap` has permissions to execute.
