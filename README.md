@@ -25,4 +25,9 @@ Providing a solution to https://github.com/waxim/beegame/blob/master/BeeGame.md
 
 * Clone the repo
 * Run `composer install`
-* Run the game with ``
+* Run the game with `./beeinthetrap`
+
+# TROUBLESHOOTING
+
+* Be sure that `beeinthetrap` has permissions to execute.
+* Be sure that a modern PHP interpreter installed in your system.
