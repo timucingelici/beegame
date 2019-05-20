@@ -1,0 +1,8 @@
+#!/bin/bash
+
+if which php > /dev/null
+then
+    php src/game.php new-game
+else
+    echo "Can't find PHP interpreter in your system."
+fi

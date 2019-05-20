@@ -1,0 +1,21 @@
+{
+    "name": "timucingelici/beegame",
+    "description": "Bees In The Trap is a console game which you aim to destroy a hive of wasps to protect your lovely bumblebees.",
+    "authors": [
+        {
+            "name": "Timucin Gelici",
+            "email": "timucin.gelici@gmail.com"
+        }
+    ],
+    "require": {
+        "symfony/console": "^4.2",
+        "phpunit/phpunit": "^8.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Commands\\": "src/Commands",
+            "Game\\": "src/Game",
+            "Tests\\": "tests/"
+        }
+    }
+}
